@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+h1 {
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    color:blue
+}
+
+h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    color:gray
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+p  {
+    line-height: 25px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    color: #2e2e2e 
+}
+
+a {
+    text-decoration: none;
+    color: #2aa5da;
+    font-weight: 1000;
+    text-align: justify;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+div {
+width: 1400px;
+height: 1200px;
+padding: 55px;
+border-radius: 5px;
+box-sizing: border-box;
+background-color: rgb(215, 209, 209);
+margin: 50px auto;
+border: 1px solid rgb(6, 62, 166)
+}
+
+nav {
+    display: flex;
+    width: 99%;
+    height: 50px;
+    background-color: black;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table {
+    margin: 10px auto;
+    font-size: 18px;
+    width: 800px;
+    border-collapse: collapse;
+    }
+    caption {
+    font-size: 30px;
+    color: rgb(42, 98, 172);
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 10px;
+    }
+    thead tr {
+    background: rgb(42, 98, 172);
+    color: #fff;
+    text-align: center;
+    }
+    th, td {
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    }
+    tbody tr {
+    border-bottom: 1px solid #ccc;
+    }
+    tbody tr:nth-child(even) {
+    background: #f9f9f9;
+    }
+    tbody tr:last-child {
+    border-bottom: 20px solid rgb(42, 98, 172);
+    }
+    tbody tr:hover {
+    font-weight: 900;
+    color: rgb(42, 98, 172);
+    cursor: pointer;
+    }
+   tfoot{
+    text-align: center;
+   }
+
+
+   h3,
+.hotel__reservas {
+margin: 10px 0;
+}
+.hotel__botao__reserva {
+padding: 2px 10px;
+background-color: rgb(62, 68, 153);
+border: 1px solid rgb(62, 68, 153);
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+text-transform: uppercase;
+}
+.hotel__botao__reserva:hover{
+color: rgb(62, 68, 153);
+background-color: #FFF;
+}
+
+.redes_sociais_itens{
+font-size: 30px;
+}
+
