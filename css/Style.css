@@ -57,6 +57,7 @@ nav {
     padding: 0 10px;
     justify-content: space-between;
     align-items: center;
+    font-size: 25px;
 }
 
 table {
@@ -96,10 +97,10 @@ table {
     color: rgb(42, 98, 172);
     cursor: pointer;
     }
-   tfoot{
-    text-align: center;
-   }
 
+   footer {
+    text-align: center
+    }
 
    h3,
 .hotel__reservas {
@@ -121,5 +122,5 @@ background-color: #FFF;
 
 .redes_sociais_itens{
 font-size: 30px;
+letter-spacing: 10px;
 }
-
