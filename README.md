@@ -1,0 +1,2 @@
+Participei do Projeto em grupo de Abril a Maio de 2023 no repositório compartilhado: https://github.com/pedrotxt/projeto-traveller-fiap 
+A partir de hoje 26/05/2023 retorno ao meu repositório particular (Solo) até encontrar um novo grupo para seguir com o Projeto.
