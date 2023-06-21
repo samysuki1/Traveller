@@ -38,8 +38,8 @@
   }
   
   .logo {
-    height: 30px;
-    width: auto;
+    height: 50px;
+    width: 50px;
     margin-right: 10px;
   }
   
@@ -48,20 +48,20 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 50px;
+    height: 30px;
     width: 100%;
-    background: rgba(0, 0, 0, 0.9);
+    background: #5f021f
     position: sticky; 
     top: 0;
     padding: 30px;
   }
   
   .nav-login {
-    background-color: #2c5398;
+    background-color: #f9a03f;
   }
   
   .nav-login a:hover {
-    background-color: #124eb6;
+    background-color: #990033;
   }
   
   .nav .nav-header {
@@ -73,7 +73,7 @@
     align-items: center;
     justify-content: center;
     font-size: 22px;
-    color: #fff;
+    color: #000;
   }
   
   .nav .nav-btn {
@@ -89,11 +89,11 @@
   .nav .nav-links  a {
     padding: 13px 10px 13px 10px;
     text-decoration: none;
-    color: #efefef;
+    color: #000000;
   }
   
   .nav .nav-links a:hover {
-    background-color: #203d70c0;
+    background-color: #f6e8b7;
   }
   
   .nav #nav-check {
@@ -114,7 +114,7 @@
       padding: 13px;
     }
     .nav .nav-btn label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: #660000;
     }
     .nav .nav-btn label span {
       display: block;
