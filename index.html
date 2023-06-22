@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="icon" type="image/png" href="./images/Logo Gulliver.png" />
+  <link rel="icon" type="image/png" href="images/Logo Gulliver.png" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Gulliver Traveller</title>
   <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.css">
   <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap-grid.css">
-  <link rel="icon" type="image/png" href="./images/Logo Gulliver.png" />
 
 
   <!-- Link JavaScript -->
@@ -20,48 +20,42 @@
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
 
-  <title>Gulliver Traveller</title>
 
 </head>
 
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg ">
-
-    <a class="navbar-brand" href="#">
-      <img src="images/Logo Gulliver.png" alt="Logotipo" width="80" height="80"
-        class="d-inline-block align-top">
-    
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="./Destinos.html">Melhores Destinos</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./Hoteis.html">Hospedagem</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./Restaurantes.html">Gastronomia</a>
-        </li>
-        <li><button type="button" class="btn btn-primary "> Login </button>
-        </li>
-        <li>
-          <button type="button" class="btn btn-secondary "> Cadastro </button>
-        </li>
-      </ul>
+  <div class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        <img src="./images/Logo Gulliver.png" alt="Logotipo" class="logo">
+        <a href="./index.html">Gulliver Traveller</a> 
+      </div>
     </div>
-  </nav>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    
+    <div class="nav-links">
+      <a href="./Destinos.html" >Melhores Destinos</a>
+      <a href="./Hoteis.html">Hospedagem</a>
+      <a href="./Restaurantes.html">Gastronomia</a>
+      <a href="./login.html" class="nav-login">Login</a>
+      <a href="./cadastro.html" >Cadastro</a>
+    </div>
+  </div>
+
   <!-- Showcase -->
   <div class="showcase">
     <div class="showcase-container">
-      <h2>Viajar é para todos</h2>
-      <p>Vamos explorar o mundo juntos!</p>
+      <h2>Viajar é Para Todos</h2>
+      <p>Vamos Explorar o Mundo Juntos</p>
       <div class="tags-container">
         <a class="tag-item">Quem Somos</a>
       </div>
@@ -116,7 +110,7 @@
 
 
         <div class="about-image">
-          <img src="/images/teste-gulliver.jpeg" alt="Planeje sua viagem com Gulliver">
+          <img src="/images/6990.jpg" alt="Planeje sua viagem com Gulliver">
         </div>
       </div>
 
@@ -129,7 +123,7 @@
 
     <!-- card-nobootstrap -->
     <div class="card-nobootstrap-background">
-      <h1 class="card-title-up">Os lugares mais surpreendentes de São Paulo a maior cidade da América do Sul</h1>
+      <h1 class="card-title-up">Os lugares mais surpreendentes de São Paulo</h1>
       <div class="container my-4">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-4">
@@ -287,42 +281,33 @@
   </div>
 
   <!-- Footer -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <footer id="footer">
+    <div class="footer-content">
+      <ul class="footer-menu">
+        <img src="images/Logo Gulliver.png" alt="logo" class="logo">
+        <li class="footer-menu-item info">
+          Mergulhe nas nossas dicas para levar na mala a conexão de uma verdadeira experiência de viagem. Entregue-se de
+          corpo e alma à liberdade do autêntico!
+        </li>
+      </ul>
 
-    <a class="navbar-brand" href="#">
-      <img src="https://www.freeiconspng.com/uploads/travel-icon-clip-art--royalty--10.png" alt="Logotipo" width="30" height="30"
-        class="d-inline-block align-top">
-      Traveller
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav ml-auto mt-2 2 mt-lg-0">
-        <li class="nav-item active px-2 text-primary">
-          <i class="fa-brands fa-instagram"></i>
+      <ul class="footer-menu">
+        <p>Links úteis</p>
+        <li class="footer-menu-item link">
+          Ajuda
         </li>
-        <li class="nav-item active px-2 text-primary">
-          <i class="fa-brands fa-twitter"></i>
-        </li>
-        <li class="nav-item active px-2 text-primary">
-          <i class="fa-brands fa-facebook-f"></i>
+        <li class="footer-menu-item link">
+          Sobre
         </li>
       </ul>
-      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Ajuda</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Termos de Uso</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Sobre</a>
-        </li>
-      </ul>
+
+      <div class="socials">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+      </div>
     </div>
-  </nav>
+  </footer>
 
   <!-- Scripts -->
   <script src="https://kit.fontawesome.com/9be75513e7.js" crossorigin="anonymous"></script>
